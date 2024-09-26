@@ -1,13 +1,6 @@
-model = int(input("enter a multiaxle model to get its mileage"))
+# Return the year and name of weekday:
 
-
-
-if model == 4825:
-     mileage = 2
-     print("the model will get mileage of",mileage)
-elif model == 4225:
-     mileage = 3
-     print("the model will get mileage of",mileage)
-else:  
-    print("model doesnt exist" )
-
+import datetime
+x = datetime.datetime.now()
+print(x.year)
+print(x.strftime("%A"))
