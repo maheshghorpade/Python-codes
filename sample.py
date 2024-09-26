@@ -1,2 +1,3 @@
-import mymodule 
-mymodule.greeting("mahesh")
+import mymodule
+a = mymodule.person1["age"]
+print(a)
